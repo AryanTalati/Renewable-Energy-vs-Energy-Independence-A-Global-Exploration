@@ -1,0 +1,30 @@
+
+.tooltip {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  pointer-events: none;
+  font-size: 14px;
+  color: black;
+  z-index: 1000; /* Ensure it's on top */
+}
+
+
+.App {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+
+.chart-title {
+  fill: #fff;
+}
+.App h1, .App h2 {
+  color: #fff; /* White text color */
+  margin: 0;
+  font-size: 2rem; /* Adjust as needed */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add subtle shadow for readability */
+}
